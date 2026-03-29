@@ -10,8 +10,10 @@ export default defineConfig({
     chunkSizeWarningLimit: 1600, // Handling large data sections gracefully
     rollupOptions: {
       output: {
-        manualChunks: {
-          vendor: ['react', 'react-dom'], // Splitting vendor libraries for faster loading
+        manualChunks(id) {
+          if (id.includes('node_modules')) {
+            return 'vendor';
+          }
         },
       },
     },
