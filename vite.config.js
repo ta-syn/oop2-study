@@ -6,7 +6,6 @@ export default defineConfig({
   plugins: [react()],
   build: {
     outDir: 'dist',
-    minify: 'esbuild', // Built-in high-performance minification
     chunkSizeWarningLimit: 1600, // Handling large data sections gracefully
     rollupOptions: {
       output: {
