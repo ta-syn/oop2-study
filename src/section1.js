@@ -9,8 +9,8 @@ export const section1 = {
     {
       "id": 1,
       "question": "1. Print your details (Name, Age, University)",
-      "solve": "using System;\n\nclass Program {\n    static void Main() {\n        Console.WriteLine(\"Name: Nishan\");\n        Console.WriteLine(\"Age: 21\");\n        Console.WriteLine(\"University: Daffodil International University\");\n    }\n}",
-      "output": "Name: Nishan\nAge: 21\nUniversity: Daffodil International University",
+      "solve": "using System;\n\nclass Program {\n    static void Main() {\n        Console.WriteLine(\"Name: Nishan\");\n        Console.WriteLine(\"Age: 21\");\n        Console.WriteLine(\"University: American International University-Bangladesh (AIUB)\");\n    }\n}",
+      "output": "Name: Nishan\nAge: 21\nUniversity: American International University-Bangladesh (AIUB)",
       "explanation_en": "### Code Breakdown:\n- `class Program`: Every C# code needs to be inside a class container.\n- `static void Main()`: This is the starting engine of your app. C# looks for this explicitly to begin executing.\n- `Console.WriteLine()`: This is the primary syntax to push output to the screen.\n\n**Core Logic**: Since we are printing hardcoded strings, we wrap the text purely in double-quotes `\"\"`. Using `WriteLine` automatically jumps to a new line after printing, which is why the output stacks neatly vertically instead of joining deeply.",
       "explanation_bn": "### কোড ব্রেকডাউন:\n- `class Program`: C# এর সম্পূর্ণ কোডটি обов্যই একটি ক্লাসের ভেতরে থাকতে হয়। এটি একটি বক্সের মতো কাজ করে।\n- `static void Main()`: এটি হলো যেকোনো C# প্রোগ্রামের মূল ইঞ্জিন। যখনই প্রোগ্রাম রান হয়, সে সর্বপ্রথম `Main()` কে খোঁজে এবং ভেতর থেকে কোড পড়া শুরু করে।\n- `Console.WriteLine()`: এই ফাংশনটির কাজ হলো স্ক্রিনে লেখা প্রিন্ট করা এবং তার ঠিক পরেই লাইন ব্রেক বা এন্টার দিয়ে পরের লাইনে চলে যাওয়া।\n\n**লজিক**: আমরা যেহেতু ফিক্সড বা নির্দিষ্ট কিছু লেখা দেখাচ্ছি, তাই লেখাগুলোকে ডাবল কোটেশন `\"\"` এর মাঝে রেখেছি।"
     },
